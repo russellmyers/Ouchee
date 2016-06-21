@@ -74,7 +74,7 @@ public class HandImageView extends ImageView  implements
         System.out.println("Painting content");
         Paint paint  = new Paint(Paint.LINEAR_TEXT_FLAG);
         paint.setColor(Color.RED);
-        paint.setTextSize(30.0F);
+        paint.setTextSize(getContext().getResources().getDimensionPixelSize(R.dimen.tap_text_font_size));                     //(30.0F);
         System.out.println("Drawing text");
        // canvas.drawText("Hello World in custom view", 200, 200, paint);
         //canvas.drawRect(new Rect(0, 0, getWidth(), getHeight()), paint);
@@ -85,7 +85,9 @@ public class HandImageView extends ImageView  implements
 
         if (readyToStart) {
             paint.setColor(Color.BLUE);
-            canvas.drawText("Tap bottom left to start", 40, 140, paint);
+            paint.setTextAlign(Paint.Align.CENTER);
+            canvas.drawText("Tap bottom left to start", canvas.getWidth() / 2,
+                            ((canvas.getHeight() / 2) - ((paint.descent() + paint.ascent()) / 2)), paint);
         }
     }
 
