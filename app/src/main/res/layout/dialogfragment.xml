@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/scoreViewF"
+        android:text="Score: 0"
+        android:textSize="30sp"
+        android:textIsSelectable="true" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bestViewF"
+            android:text="Best: 0"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp" />
+
+
+        <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oucheeView"
+        android:layout_gravity="right"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"   /-->
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+
+        android:id="@+id/oucheeImageViewF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play again"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/restartbutton" />
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "98523635679",
+    "firebase_url": "https://project-9165963500298818378.firebaseio.com",
+    "project_id": "project-9165963500298818378",
+    "storage_bucket": "project-9165963500298818378.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98523635679:android:0d977a6feced170d",
+        "android_client_info": {
+          "package_name": "com.genevol.ouchee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98523635679-drudir32hgvm9gmst9e2thcs1gadcg6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH55M0oB6Gk9LCn3MxjIFNw69zQpRaK4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
